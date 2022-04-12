@@ -1,0 +1,63 @@
+#row1{
+    height: 77px;
+    width: 100%;
+    border: 1px solid red;
+}
+
+#amazonlogo{
+    height: 45px;
+    width: 100px;
+    float:left
+
+}
+#address{
+    width: 46%;
+
+}
+#fromid{
+    width: 42%;
+    height: 43px;
+    float: center;
+    border: 1px solid red;
+
+
+}
+#searchbox{
+    width: 99%;
+
+}
+.floatright{
+    float: right;
+}
+
+#position{
+    z-index: 2;
+}
+
+
+
+
+/* row2 */
+#row2{
+    height: 52px;
+    width: 100%;
+    border: 1px solid red;
+    border-right: 1px solid purple;
+    
+}
+#columns{
+    float: right;
+}
+
+/* row3 */
+#carouselExampleControls{
+   
+    position: relative;
+}
+
+#prevbuttonposition{
+    bottom: 306px;
+}
+#nextbuttonposition{
+   bottom: 306px;
+}

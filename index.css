@@ -1,7 +1,11 @@
+body{
+    background-color: #eaeded;
+    
+}
 #row1{
-    height: 77px;
+    height: 76px;
     width: 100%;
-    border: 1px solid red;
+    
 }
 
 #amazonlogo{
@@ -15,10 +19,10 @@
 
 }
 #fromid{
-    width: 42%;
+    width: 80%;
     height: 43px;
     float: center;
-    border: 1px solid red;
+    
 
 
 }
@@ -26,13 +30,24 @@
     width: 99%;
 
 }
-.floatright{
-    float: right;
+#floatright{
+    float:left
 }
 
 #position{
     z-index: 2;
 }
+.hello{
+    line-height: 1px;
+}
+#geo{
+    line-height: 4px;
+    
+}
+#location{
+    margin-left: -12px;
+}
+
 
 
 
@@ -41,8 +56,7 @@
 #row2{
     height: 52px;
     width: 100%;
-    border: 1px solid red;
-    border-right: 1px solid purple;
+    color: #ffff;
     
 }
 #columns{
@@ -60,4 +74,152 @@
 }
 #nextbuttonposition{
    bottom: 306px;
+}
+image1{
+    height: 125px;
+    width: 100px;
+
+}
+
+#cardsrow{
+    position: absolute; 
+    top: 40%;
+    height: 402px;
+    
+
+}
+#card1{
+   
+    margin-left: 1%;
+    width: 18rem;
+    float: left;
+}
+#card2{
+   
+    width: 18rem;
+    margin-left: 2%;
+    float: left;
+}
+#card3{
+   
+    margin-left: 2%;
+    width: 18rem;
+    float: left;
+}
+#card4{
+    margin-left: 1%;
+    width: 18rem;
+    float: left;
+}
+
+.cardimg{
+    height: 99px;
+    width: 40%;
+    margin-left:5%; 
+    
+ }
+ .cardtext1{
+     margin-left:5%;
+     margin-top:-22px;
+     width: 40%;
+     
+
+ 
+ }
+ .cardtext2{
+     margin-left:14px;
+     margin-top:-22px;
+     
+ }
+ .cardtext3{
+     margin-left:5%;
+ }
+ .name2nd {
+    line-height: 1px;
+    margin-left:10%;
+}
+.productname{
+    
+    height:37px;
+    width:80%;
+    margin-left:10%;
+}
+.fullimg{
+    height: 266px;
+    width: 100%;
+
+}
+ 
+ 
+ /* hrtag */
+ .hrclass{
+    color:#ffff;
+    margin-top:91px
+ }
+
+
+ #row4card{
+    margin-left:1%;
+    width: 18rem;
+    display: inline-block;
+    
+    
+
+ }
+
+ /* footor */
+ .header{
+    color:#ffff !important;
+    font-size: 15px;
+    font-weight: bold;
+ }
+ .column1{
+    display: inline-block;
+    margin-left: 8%;
+    color:#ffff;
+    margin-top: 40px;
+    
+ }
+ .footorbody{
+    background-color: #232f3e;
+    
+    
+ }
+ .footorfoot{
+    color:#ffff;
+    margin-left:25%;
+    width: 60%;
+    font-size: 12px;
+
+ }
+ /* darkmode */
+ .mydark{
+    background-color:#000014;
+    color: #000014;
+ }
+/* coupon */
+#coupon{
+    height:300px;
+    width: 35%;
+    background: url(./Images/coupon.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 400px;
+    z-index: 100;
+    position: absolute;
+    margin-top:10px;
+    margin-left: 33%;
+    display:block;
+
+}
+ 
+#couponbtn{
+    float: right;
+}
+#coupon > span{
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    
+    
+    
 }
